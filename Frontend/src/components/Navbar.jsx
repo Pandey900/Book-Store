@@ -38,13 +38,13 @@ function Navbar() {
   const navItems = (
     <>
       <li className="dark:bg-slate-900 dark:text-white rounded-md">
-        <a href="/">Home</a>
+        <a href="https://book-store-app-omega-dusky.vercel.app/">Home</a>
       </li>
       <li className="dark:bg-slate-900 dark:text-white rounded-md">
-        <a href="/course">Course</a>
+        <a href="https://book-store-app-omega-dusky.vercel.app/course">Course</a>
       </li>
       <li className="dark:bg-slate-900 dark:text-white rounded-md">
-        <a href="/contact">Contact</a>
+        <a href="https://book-store-app-omega-dusky.vercel.app/contact">Contact</a>
       </li>
       <li className="dark:bg-slate-900 dark:text-white rounded-md">
         <a>About</a>
