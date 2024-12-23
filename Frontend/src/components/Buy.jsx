@@ -12,7 +12,7 @@ function Buys() {
 
   const handlePurchase = () => {
     alert("Thank you for your purchase!");
-    navigate("/"); // Navigate to the home page
+    navigate("https://book-store-app-omega-dusky.vercel.app/"); // Navigate to the home page
   };
 
   return (
