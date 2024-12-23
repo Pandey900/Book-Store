@@ -16,14 +16,14 @@ const App = () => {
     <>
       <div className="dark:bg-slate-900 dark:text-white">
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="https://book-store-app-omega-dusky.vercel.app/" element={<Home />} />
           <Route
-            path="/course"
-            element={authUser ? <Courses /> : <Navigate to="/signup" />}
+            path="https://book-store-app-omega-dusky.vercel.app/course"
+            element={authUser ? <Courses /> : <Navigate to="https://book-store-app-omega-dusky.vercel.app/signup" />}
           />
-          <Route path="/signup" element={<Signup />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/buy" element={<Buys />} />
+          <Route path="https://book-store-app-omega-dusky.vercel.app/signup" element={<Signup />} />
+          <Route path="https://book-store-app-omega-dusky.vercel.app/contact" element={<Contact />} />
+          <Route path="https://book-store-app-omega-dusky.vercel.app/buy" element={<Buys />} />
         </Routes>
         <Toaster />
       </div>
