@@ -21,7 +21,7 @@ function Course() {
   }, []);
 
   const handleBuyNow = (selectedBook) => {
-    navigate("/buy", { state: { book: selectedBook } }); // Pass book details
+    navigate("https://book-store-app-omega-dusky.vercel.app/buy", { state: { book: selectedBook } }); // Pass book details
   };
 
   return (
@@ -38,7 +38,7 @@ function Course() {
           provide practical knowledge, hands-on exercises, and valuable insights
           for all learners.
         </p>
-        <Link to={"/"}>
+        <Link to={"https://book-store-app-omega-dusky.vercel.app/"}>
           <button className="mt-6 bg-pink-500 text-white px-4 py-2 rounded-md hover:bg-pink-700 duration-300">
             Back
           </button>
