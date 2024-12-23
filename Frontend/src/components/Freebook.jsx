@@ -13,7 +13,7 @@ function Freebook() {
   useEffect(() => {
     const getBook = async () => {
       try {
-        const res = await axios.get("http://localhost:4001/book");
+        const res = await axios.get("https://book-store-app-omega-dusky.vercel.app/book");
         setBook(res.data.filter((data) => data.category === "Free"));
       } catch (error) {
         console.log("Error", error);
@@ -23,7 +23,7 @@ function Freebook() {
   }, []);
 
   const handleBuyNow = (selectedBook) => {
-    navigate("/buy", { state: { book: selectedBook } }); // Pass book details
+    navigate("https://book-store-app-omega-dusky.vercel.app/buy", { state: { book: selectedBook } }); // Pass book details
   };
 
   const settings = {
