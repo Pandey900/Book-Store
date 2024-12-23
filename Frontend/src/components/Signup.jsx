@@ -20,7 +20,7 @@ function Signup() {
       password: data.password,
     };
     await axios
-      .post("http://localhost:4001/user/signup", userInfo)
+      .post("https://book-store-app-omega-dusky.vercel.app/user/signup", userInfo)
       .then((res) => {
         console.log(res.data);
         if (res.data) {
@@ -44,7 +44,7 @@ function Signup() {
             <form onSubmit={handleSubmit(onSubmit)} method="dialog">
               {/* if there is a button in form, it will close the modal */}
               <Link
-                to="/"
+                to="https://book-store-app-omega-dusky.vercel.app/"
                 className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2"
               >
                 ✕
