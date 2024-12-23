@@ -24,7 +24,7 @@ function Contact() {
       );
       toast.success("Message sent successfully!");
       formRef.current.reset(); // Reset the form
-      navigate("/"); // Redirect if needed
+      navigate("https://book-store-app-omega-dusky.vercel.app/"); // Redirect if needed
     } catch (error) {
       console.error("Email sending failed:", error.text);
       toast.error("Failed to send the message. Please try again.");
